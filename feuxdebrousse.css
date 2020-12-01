@@ -1,0 +1,402 @@
+@charset "utf-8";
+
+body {
+  background-color: #bababa;
+}
+ul.navi {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #7e7e7e;
+}
+
+.apropos {
+  float: right;
+}
+
+ul.navi li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.imgi {
+  vertical-align: middle;
+}
+.imge {
+  vertical-align: middle;
+}
+ul.navi li a:hover:not(.active) {
+  background-color: #010b40;
+}
+
+ul.navi li a.active {
+  background-color: #c8d400;
+}
+
+ul.navi li.right {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+}
+.aimage {
+  height: 100%;
+}
+.apropos {
+  height: 100%;
+}
+.titre {
+  text-align: center;
+  color: #52555d;
+}
+#wrapper {
+  width: 100%;
+  margin: 0 auto 0 auto;
+}
+
+.atitre {
+  font-family: 'Oswald', sans-serif;
+}
+p.article {
+  color: #ffffff;
+}
+#main {
+  float: left;
+  width: 75%;
+  margin: 0 0 50px 0;
+}
+
+#sidebar {
+  float: left;
+  width: 22%;
+  margin-left: 1%;
+  margin-top: 1em;
+}
+
+footer {
+  clear: both;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+article {
+  border: 1px dashed #a1a4a6;
+  margin: 1em;
+  padding: 1em;
+  background: #a1a4a6;
+}
+
+article h2 {
+  margin-top: 1em;
+}
+
+article header,
+article footer {
+  border: 1px dashed #ccc;
+  padding: 1em;
+  background: #c5ced9;
+}
+
+article aside {
+  background: #c5ced9;
+  margin: 1em 3em;
+  padding: 0.5em;
+  border: 1px dashed #ccc; /* ? est ce que je laissa la bordure ? */
+}
+.sante a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.sante a:visited {
+  color: darkgrey;
+  background-color: transparent;
+  text-decoration: none;
+}
+.sante a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+  font-weight: bold;
+}
+/* Marquage spécifique */
+
+article,
+footer,
+header,
+aside,
+nav {
+  position: relative;
+}
+
+span.elem {
+  background: #c00;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0.5em;
+  z-index: 100;
+  opacity: 0.5;
+}
+.copyright {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #7e7e7e;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  border-top-width: 2px;
+  font-family: 'Mukta', sans-serif;
+}
+
+/*.logo {
+  color: #fff;
+  font-weight: bold;
+  margin-left: auto;
+  letter-spacing: 4px;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 15px;
+  line-height: 2em;
+  font-family: 'Bangers', cursive;
+
+  font-size: 26px;
+} */ /* TODO c'est le titre */
+
+/* About Section */
+.text_column {
+  width: 90%;
+  text-align: left;
+  font-weight: lighter;
+  line-height: 25px;
+  float: left;
+  color: #a3a3a3;
+}
+.gallery {
+  clear: both;
+  display: inline-block;
+  width: 100%;
+  background-color: #ffffff;
+
+  padding-bottom: 35px;
+  padding-top: 0px;
+  margin-top: -5px;
+  margin-bottom: 0px;
+}
+.thumbnail {
+  width: 23%;
+  text-align: center;
+  float: left;
+  margin-top: 35px;
+  background-color: #f8f8f8;
+  padding-bottom: 20px;
+  margin-left: 1%;
+  margin-right: 1%;
+  border-radius: 3px;
+  padding-top: 20px;
+  border-bottom: 4px solid #8f908f;
+}
+.gallery .thumbnail h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #52bad5;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.gallery .thumbnail p {
+  margin: 0;
+  color: #777777;
+  text-align: left;
+  padding-left: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 13px;
+}
+/* More info */
+.intro {
+  background-color: #ffffff;
+  padding-bottom: 35px;
+}
+.column {
+  width: 50%;
+  text-align: center;
+  padding-top: 30px;
+  float: left;
+}
+.intro .column h3 {
+  color: #ffffff;
+  text-align: center;
+}
+.intro .column p {
+  color: #ffffff;
+}
+.cards {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  max-height: 200px;
+  opacity: 0.8;
+}
+.intro .column p {
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
+  line-height: 25px;
+  font-weight: lighter;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 80%;
+  margin-top: 4%;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #717070;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  border-top-width: 2px;
+  font-family: 'Mukta', sans-serif;
+}
+footer {
+  background-color: #b3b3b3;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.gallery .thumbnail .tag {
+  color: #5d5e5d;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Mobile */
+@media (max-width: 320px) {
+  .text_column {
+    width: 100%;
+    text-align: justify;
+
+    padding-left: 20px;
+  }
+  .intro .column p {
+    width: 80%;
+    margin-left: 0px;
+  }
+
+  .thumbnail {
+    width: 100%;
+  }
+}
+
+/* Tablettes */
+@media (min-width: 321px) and (max-width: 767px) {
+  .text_column {
+    width: 100%;
+    text-align: left;
+    padding: 0;
+  }
+  .thumbnail {
+    width: 100%;
+  }
+
+  .text_column {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 90%;
+  }
+}
+
+/* Petis appareils */
+@media (min-width: 768px) and (max-width: 1096px) {
+  .text_column {
+    width: 100%;
+  }
+  .thumbnail {
+    width: 48%;
+    font-size: 0px;
+  }
+  .text_column {
+    width: 90%;
+    margin: 0;
+    padding: 20px;
+  }
+}
+footer {
+  background-color: #b3b3b3;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.button2 {
+  margin-top: 40px;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  text-align: center;
+
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: 3px solid #ffffff;
+  color: #ffffff;
+  transition: all 0.3s linear;
+  font-family: 'Mukta', sans-serif;
+  background-color: #b3b3b3;
+  display: block;
+
+  width: 30%;
+}
+
+.button2 a {
+  font-size: 18px;
+}
+.button2 a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+.button2 a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+.button2 a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.button2:hover {
+  background-color: #6dc7d0;
+  color: #ffffff;
+  cursor: pointer;
+}
+.titredon {
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  letter-spacing: 4px;
+  font-family: 'Mukta', sans-serif;
+}

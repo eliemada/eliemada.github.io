@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+  <head>
+    <!-- La balise <title> est obligatoire dans tous les documents HTML. Elle définit le titre du document. Ce titre s'affiche dans la barre d'outils du navigateur, fournit un titre à la page lorsqu'elle est ajoutée aux favoris et affiche un titre pour la page dans les résultats des moteurs de recherche. -->
+
+    <title>Le tour des infos</title>
+
+    <!-- L'élément HTML <meta> est utilisé pour les métadonnées : l'encodage de caractères, le titre, des mots-clés, une description de la page, l'auteur, l'affichage de la page sur les terminaux mobiles, etc.  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta charset="utf-8" />
+    <meta name="author" content="Elie BRUNO" />
+    <meta name="description" content="Conception d'une page en HTML5" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, Lycée Français de Tananarive, SNT"
+    />
+    <!-- Polices de charactères-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&family=Slabo+27px&display=swap"
+      rel="stylesheet"
+    />
+    <!--Feuille d'icones-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Feuille de styles -->
+    <link rel="stylesheet" href="feuxdebrousse.css" type="text/css" />
+
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <!--! Palettes de couleurs https://color.adobe.com/fr/search?q=gris%20%20clair&t=tag-->
+  </head>
+
+  <body>
+    <!-- L'élément <body> représente le contenu principal du document HTML. Il ne peut y avoir qu'un élément <body> par document. Il doit être le second élément d'un élément <html>.-->
+
+    <!-- Header -->
+    <header>
+      <h1 class="titre">Les informations les plus importantes</h1>
+    </header>
+
+    <!-- nav principale -->
+    <nav>
+      <ul class="navi">
+        <li class="droite">
+          <a  href="index.html" class="imge"><img src="images/fa-home.png" height="18" width="18" class="imgi" /> Accueil</a>
+        </li>
+        <li class="droite"><a href="feuxdebrousse.html">Feux de brousse</a></li>
+        <li class="apropos"  >
+          <a class="active" href="apropos.html"
+            ><img src="images/enveloppe.png" height="17.9" class="imgi" /> </i>A propos</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <div class="gallery">
+      <div class="thumbnail">
+        <a href="#">
+          <!-- Insertion image 1 -->
+          <img src="images/1.jpg" alt="" width="2000" class="cards" />
+        </a>
+
+        <p class="text_column">
+          Des villes entières ont été englouties par les flammes, et les
+          habitants de plusieurs États ont perdu leurs maisons.
+        </p>
+      </div>
+      <div class="thumbnail">
+        <a href="#">
+          <!-- Insertion image 2 -->
+          <img src="images/2.jpg" alt="" width="2000" class="cards"
+        /></a>
+
+        <p class="text_column">
+          Les dommages structurels les plus importants se sont produits en NSW,
+          l'État le plus peuplé du pays, où 1 588 maisons ont été détruites et
+          plus de 650 endommagées.
+        </p>
+      </div>
+      <div class="thumbnail">
+        <a href="#">
+          <!-- Insertion image 3 --><img
+            src="images/3.jpg"
+            alt=""
+            width="2000"
+            class="cards"
+        /></a>
+
+        <p class="text_column">
+          Au total, plus de 7,3 millions d'hectares ont été brûlés dans les six
+          États australiens, soit une superficie plus grande que celle de la
+          Belgique et du Danemark réunis.
+        </p>
+      </div>
+      <div class="thumbnail">
+        <a href="#">
+          <!-- Insertion image 4 -->
+          <img src="images/4.jpg" alt="" width="2000" class="cards"
+        /></a>
+
+        <p class="text_column">
+          L'État le plus touché est la Nouvelle-Galles du Sud, où plus de 4,9
+          millions d'hectares ont été brûlés.
+        </p>
+      </div>
+    </div>
+    <div class="gallery">
+      <div class="thumbnail">
+        <a href="#">
+          <!-- Insertion image 5 -->
+          <img src="images/5.jpg" alt="" width="2000" class="cards"
+        /></a>
+
+        <p class="text_column">
+          Près d'un demi-milliard d'animaux ont été touchés par les incendies en
+          Nouvelle-Galles du Sud seulement, avec des millions de morts
+          potentielles, selon les écologistes de l'Université de Sydney.
+        </p>
+      </div>
+      <div class="thumbnail">
+        <a href="#"
+          ><!-- Insertion vidéo yotube grâce à un lien "embed" --><iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/NlernmOBCj8"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            class="cards"
+          ></iframe
+        ></a>
+        <p class="text_column">
+          Ce chiffre inclut les oiseaux, les reptiles et les mammifères, à
+          l'exception des chauves-souris.
+        </p>
+      </div>
+      <div class="thumbnail">
+        <a href="#">
+          <!-- Insertion image 6 -->
+          <img src="images/6.jpg" alt="" width="2000" class="cards"
+        /></a>
+
+        <p class="text_column">
+          Il exclut également les insectes et les grenouilles - ce qui signifie
+          que le nombre réel est probablement beaucoup plus élevé.
+        </p>
+      </div>
+      <div class="thumbnail">
+        <a href="#">
+          <!-- Insertion image 7 -->
+          <img src="images/7.jpg" alt="" width="2000" class="cards"
+        /></a>
+
+        <p class="text_column">
+          Le nombre total d'animaux touchés à l'échelle nationale pourrait
+          atteindre le milliard, selon Christopher Dickman, l'écologiste de
+          l'université de Sydney qui a dirigé le rapport.
+        </p>
+      </div>
+    </div>
+      <!-- Section don -->
+      <footer id="don">
+         <p class="titredon">FAITES UN DON</p>
+         <div class="button">
+           <!-- Lien de donation vers le site des pompiers australiens -->
+         </div>
+         <button
+           class="button2"
+           onclick=" window.open('https://faireundon.wwf.fr/b/mon-don','_blank')"
+         >
+           <a>ICI</a>
+         </button>
+         <!-- Lien de donation vers le site des pompiers australiens -->
+       </footer>
+   <!--  Section droits d'auteur -->
+   <div class="copyright">&copy;2020 - <strong>Elie BRUNO 2°5</strong></div>
+ </div>
+  </body>
+</html>

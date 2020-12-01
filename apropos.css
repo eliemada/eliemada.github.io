@@ -1,0 +1,206 @@
+@charset "utf-8";
+.case .texte {
+  font-family: 'Bitter', serif;
+  font-size: 12px;
+  text-align: justify;
+  color: #303030;
+}
+.case .textei {
+  font-family: 'Bitter', serif;
+  font-size: 12px;
+  text-align: justify;
+  color: #686868;
+  font-style: italic;
+}
+body {
+  background-color: #bababa;
+}
+ul.navi {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #7e7e7e;
+}
+
+.apropos {
+  float: right;
+}
+
+ul.navi li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.navi li a:hover:not(.active) {
+  background-color: #010b40;
+}
+
+ul.navi li a.active {
+  background-color: #4caf50;
+}
+
+ul.navi li.right {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+}
+.imgi {
+  vertical-align: middle;
+}
+.imge {
+  vertical-align: middle;
+}
+.apropos {
+  height: 100%;
+}
+.titre {
+  text-align: center;
+  color: #52555d;
+}
+
+nav ul li {
+  display: inline-block;
+}
+.case .titremajeur {
+  font-family: 'Montserrat', sans-serif;
+  color: #595959;
+  font-size: 20px;
+  font-weight: bold;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+.case .titrecase {
+  font-family: 'Montserrat', sans-serif;
+  color: #929292;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+.case .souspartie {
+  font-family: 'Montserrat', sans-serif;
+  color: #929292;
+  font-size: 13px;
+  font-weight: 650;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* Marquage spécifique */
+
+article,
+footer,
+header,
+aside,
+nav {
+  position: relative;
+}
+/* ! Inutile pour le moment */
+/*
+span.elem {
+  background: #c00;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0.5em;
+  z-index: 100;
+  opacity: 0.5;
+} */
+.copyright {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #7e7e7e;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  border-top-width: 2px;
+  font-family: 'Mukta', sans-serif;
+}
+
+/*.logo {
+  color: #fff;
+  font-weight: bold;
+  margin-left: auto;
+  letter-spacing: 4px;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 15px;
+  line-height: 2em;
+  font-family: 'Bangers', cursive;
+
+  font-size: 26px;
+} */ /* TODO c'etait le titre */
+
+footer {
+  background-color: #b3b3b3;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.button2 {
+  margin-top: 40px;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  text-align: center;
+
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: 3px solid #ffffff;
+  color: #ffffff;
+  transition: all 0.3s linear;
+  font-family: 'Mukta', sans-serif;
+  background-color: #b3b3b3;
+  display: block;
+  width: 30%;
+}
+
+.button2 a {
+  font-size: 18px;
+}
+.button2 a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+.button2 a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+.button2 a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.button2:hover {
+  background-color: #6dc7d0;
+  color: #ffffff;
+  cursor: pointer;
+}
+.titredon {
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  letter-spacing: 4px;
+  font-family: 'Mukta', sans-serif;
+}

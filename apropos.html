@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+  <head>
+    <!-- La balise <title> est obligatoire dans tous les documents HTML. Elle définit le titre du document. Ce titre s'affiche dans la barre d'outils du navigateur, fournit un titre à la page lorsqu'elle est ajoutée aux favoris et affiche un titre pour la page dans les résultats des moteurs de recherche. -->
+
+    <title>Le tour des infos</title>
+
+    <!-- L'élément HTML <meta> est utilisé pour les métadonnées : l'encodage de caractères, le titre, des mots-clés, une description de la page, l'auteur, l'affichage de la page sur les terminaux mobiles, etc.  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta charset="utf-8" />
+    <meta name="author" content="Elie BRUNO" />
+    <meta name="description" content="Conception d'une page en HTML5" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, Lycée Français de Tananarive, SNT"
+    />
+    <!-- Polices de charactères-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&family=Slabo+27px&display=swap"
+      rel="stylesheet"
+    />
+    <!--Feuille d'icones-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+<link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+
+    <!-- Feuille de styles -->
+    <link rel="stylesheet" href="apropos.css" type="text/css" />
+
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <!--! Palettes de couleurs https://color.adobe.com/fr/search?q=gris%20%20clair&t=tag-->
+  </head>
+
+  <body>
+    <!-- L'élément <body> représente le contenu principal du document HTML. Il ne peut y avoir qu'un élément <body> par document. Il doit être le second élément d'un élément <html>.-->
+
+    <!-- Header -->
+
+    <!-- nav principale -->
+    <nav>
+      <ul class="navi">
+        <li class="droite">
+          <a  href="index.html" class="imge"><img src="images/fa-home.png" height="18" width="18" class="imgi" /> Accueil</a>
+        </li>
+        <li class="droite"><a href="feuxdebrousse.html">Feux de brousse</a></li>
+        <li class="apropos"  >
+          <a class="active" href="apropos.html"
+            ><img src="images/enveloppe.png" height="17.9" class="imgi" /> </i>A propos</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <section class="case">
+      <h2 class="titremajeur">Qui suis-je?</h2>
+      <hr />
+      <h3 class="titrecase">Un designer web</h3>
+      <div >
+        <p class="texte">
+          Je suis Elie BRUNO, je suis actuellement en classe de 2nd et suis un
+          élève scientifique. J'apprends à&nbsp; &nbsp;développer des sites
+          internets et commence à avoir de bonnes connaissances
+        </p>
+      </div>
+    </section>
+    <!-- Détails perso -->
+    <section class="case">
+      <h2 class="titrecase">Informations</h2>
+
+        <p><span class="textei">Email :</span> <a class="texte" href="mailto: elie.bruno@eleve.egd.mg">elie.bruno@eleve.egd.mg</a></p>
+        <p><span class="textei">Tel :</span> <a class="texte" href="tel:+261340581132">034 05 811 32</a></p>
+        <p><span class="textei">Adresse :</span><a class="texte"> Ivandry </a></p>
+    </section>
+
+    <section class="case">
+      <h2 class="titremajeur">Objectifs du site</h2>
+      <hr/>
+      <!-- Détails du site  -->
+      <article class="case">
+        <h2 class="titrecase">Feux de brousse en Australie</h2>
+        <h3 class="souspartie">Dégâts animaliers et matériaux</h3>
+        <p class="texte">
+          Depuis des mois, l'est de l'Australie est ravagée par des feux de
+          brousse colossaux et incontrôlables attisés par une vague de chaleur
+          historique. Si le bilan humain reste modéré, près de 500 millions
+          d'animaux ont sans doute péri. Ce site internet a pour but de vous
+          montrer la violence des feux de brousse qui se déroulaient en
+          Australie, et les dégâts qu'ils ont faits.
+        </p>
+      </article>
+      <!-- Donations détails -->
+      <article class="section2Content">
+        <h2 class="titrecase">Donations</h2>
+        <h3 class="souspartie">Levée de fonds</h3>
+        <p class="texte">
+          L'ensemble de vos dons sera reversé au WWF Australie qui oeuvre à la
+          sauvegarde de la faune sauvage touchée par ces feux et à la
+          restauration de son habitat. Le WWF Australie prévoit déjà la mise
+          en place d’un plan de restauration de l’habitat du koala, avec
+          l’ambition de sauver et planter 2 milliards d’arbres d’ici 2030.
+          Votre don contribuera à ce plan mais il permettra également de
+          prendre en charge les animaux blessés via des centres de sauvegardes
+          de la faune sauvage locaux, ou de renforcer le plaidoyer pour une
+          meilleure protection des forêts australiennes. Si le programme
+          d'intervention du WWF Australie est intégralement financé, les dons
+          supplémentaires seront affectés à la protection des forêts dans
+          d’autres zones prioritaires.Grâce aux premiers dons de partenaires
+          et sympathisants du monde entier, le WWF Australie a déjà engagé 500
+          000 $Aud qui ont permis le sauvetage immédiat de nombreux animaux
+          blessés ainsi que leur prise en charge pour des soins d’urgence.
+          Votre aide nous est précieuse, agissons ensemble.
+        </p>
+      </article>
+      <!-- Replicate the above Div block to add more title and company details -->
+    </section>
+      <!-- Section don -->
+      <footer id="don">
+         <p class="titredon">FAITES UN DON</p>
+         <div class="button">
+           <!-- Lien de donation vers le site des pompiers australiens -->
+         </div>
+         <button
+           class="button2"
+           onclick=" window.open('https://faireundon.wwf.fr/b/mon-don','_blank')"
+         >
+           <a>ici</a>
+         </button>
+         <!-- Lien de donation vers le site des pompiers australiens -->
+       </footer>
+   <!--  Section droits d'auteur -->
+   <div class="copyright">&copy;2020 - <strong>Elie BRUNO 2°5</strong></div>
+ </div>
+  </body>
+</html>
