@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+  <head>
+    <!-- La balise <title> est obligatoire dans tous les documents HTML. Elle définit le titre du document. Ce titre s'affiche dans la barre d'outils du navigateur, fournit un titre à la page lorsqu'elle est ajoutée aux favoris et affiche un titre pour la page dans les résultats des moteurs de recherche. -->
+
+    <title>Le tour des infos</title>
+
+    <!-- L'élément HTML <meta> est utilisé pour les métadonnées : l'encodage de caractères, le titre, des mots-clés, une description de la page, l'auteur, l'affichage de la page sur les terminaux mobiles, etc.  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta charset="utf-8" />
+    <meta name="author" content="Elie BRUNO" />
+    <meta name="description" content="Conception d'une page en HTML5" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, Lycée Français de Tananarive, SNT"
+    />
+    <!-- Polices de charactères-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&family=Slabo+27px&display=swap"
+      rel="stylesheet"
+    />
+    <!--Feuille d'icones-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Feuille de styles -->
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--! Palettes de couleurs https://color.adobe.com/fr/search?q=gris%20%20clair&t=tag-->
+  </head>
+
+  <body>
+    <!-- L'élément <body> représente le contenu principal du document HTML. Il ne peut y avoir qu'un élément <body> par document. Il doit être le second élément d'un élément <html>.-->
+
+    <!-- Header -->
+    <header>
+      <h1 class="titre">Les informations les plus importantes</h1>
+    </header>
+
+    <!-- nav principale -->
+    <nav>
+      <ul class="navi">
+        <li class="droite">
+          <a  href="index.html" class="imge"><img src="images/fa-home.png" height="18" width="18" class="imgi" /> Accueil</a>
+        </li>
+        <li class="droite"><a href="feuxdebrousse.html">Feux de brousse</a></li>
+        <li class="apropos"  >
+          <a class="active" href="apropos.html"
+            ><img src="images/enveloppe.png" height="17.9" class="imgi" /> </i>A propos</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Main -->
+    <section id="main">
+      <article>
+        <header>
+          <h2 class="atitre">Feux de brousse</h2>
+          <p>
+            <div class="sante">Extrait de la page
+            <a href="feuxdebrousse.html" target="blank">feux de brousse</a> </div>
+          </p>
+        </header>
+
+        <p class="article">
+          La saison 2019-2020 des feux de brousse en Australie a débuté en juin
+          touchant surtout la Nouvelle-Galles du Sud et dans l'est et le
+          nord-est de l'État de Victoria
+        </p>
+
+        <aside>
+          <p>
+            "Des villes entières ont été englouties par les flammes, et les
+            habitants de plusieurs États ont perdu leurs maisons."
+          </p>
+        </aside>
+      </article>
+
+      <article>
+        <header>
+          <h2 class="atitre">Le coronavirus</h2>
+        </header>
+
+        <p class="article">
+          Le Covid-19 (anciennement appelé 2019-nCoV), est apparu en Chine, fin
+          décembre 2019. Il appartient à une grande famille de virus, les
+          coronavirus. Très fréquents, ils peuvent aussi bien provoquer un
+          simple rhume qu’une grave infection respiratoire de type pneumonie, à
+          l’origine d’épidémies mortelles comme ce fut le cas avec le Sras ou le
+          Mers et maintenant avec le Covid-19. Symptômes, transmission, nombre
+          de cas, mesures de prévention. On fait le point.
+        </p>
+
+        <footer>
+          <p>
+            <div class="sante">Source :         <a
+              href="https://www.santemagazine.fr/sante/maladies/maladies-infectieuses/maladies-virales/tout-savoir-sur-les-infections-respiratoires-a-coronavirus-431783"
+              target="blank"
+              >santé magazine</a></div>
+            
+          </p>
+        </footer>
+      </article>
+    </section>
+
+    <!-- sidebar -->
+    <aside id="sidebar">
+      <img src="images/PP.png" style="max-width: 100%;max-height: 100%;" />
+    </aside>
+
+    <footer>
+      <!--  Section droits d'auteur -->
+      <div class="copyright">&copy;2020 - <strong>Elie BRUNO 2°5</strong></div>
+    </footer>
+  </body>
+</html>
